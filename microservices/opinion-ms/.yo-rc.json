@@ -51,6 +51,9 @@
     "skipCommitHook": true,
     "jwtSecretKey": "NWNmYTg5YmZmNWJhNjlmN2JlZDAxNTVkNmMwZDc5YTkyMDdjYTQ2NTk2ZTQyYTUyNmI5OTA3MjhmMGVlOWE5MDgyNjQ4MDNlYzhkMWY5MWI2ZjY5NDIzZGIyN2E4YWNjZGE3YThiN2MyZDdmMzY5ZTQ5NGVjMzExOWZlOWVhNTE=",
     "enableGradleEnterprise": false,
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1670944218000,
+    "entities": ["Opinion"],
+    "generateMfeForEntity": true
   }
 }

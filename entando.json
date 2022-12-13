@@ -1,0 +1,15 @@
+{
+    "microservices": [
+        {
+            "name": "opinion-ms",
+            "stack": "spring-boot",
+            "healthCheckPath": "/api/health"
+        }
+    ],
+    "microfrontends": [],
+    "svc": [],
+    "name": "sentiment-analysis-bundle",
+    "version": "0.0.1",
+    "description": "sentiment-analysis-bundle description",
+    "type": "bundle"
+}

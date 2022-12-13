@@ -1,0 +1,52 @@
+{
+  "microserviceName": "opinion",
+  "clientRootFolder": "opinion",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "username",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "pageid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "langcode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "created",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "text",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sentences",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "result",
+      "fieldType": "Sentiment",
+      "fieldValues": "VERY_NEGATIVE,NEGATIVE,NEUTRAL,POSITIVE,VERY_POSITIVE,UNDETERMINED"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceImpl",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": true,
+  "readOnly": false,
+  "pagination": "infinite-scroll",
+  "name": "Opinion",
+  "changelogDate": "20221213151018"
+}

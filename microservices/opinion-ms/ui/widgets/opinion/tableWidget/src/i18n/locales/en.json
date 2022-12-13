@@ -1,0 +1,56 @@
+{
+  "error": {
+    "dataLoading": "Error during server connection"
+  },
+  "common": {
+    "notAuthenticated": "User is not authenticated.",
+    "loadingMore": "Loading more...",
+    "download": "Download file",
+    "dataDeleted": "Opinion successfully deleted",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "pagination": {
+    "ariaLabels": {
+      "firstPage": "first page",
+      "previousPage": "previous page",
+      "nextPage": "next page",
+      "lastPage": "last page"
+    }
+  },
+  "filters": {
+    "field": "Field",
+    "value": "Value",
+    "addFilter": "Add filter",
+    "clearFilters": "Clear filters",
+    "filter": "Filter",
+    "operator": "Operator",
+    "operators": {
+      "equals": "equals",
+      "in": "in",
+      "specified": "specified",
+      "unspecified": "unspecified",
+      "contains": "contains"
+    }
+  },
+  "entities": {
+    "opinion": {
+      "deleteDialog": {
+        "title": "Delete opinion",
+        "description": "Are you sure?"
+      },
+      "noItems": "No opinions available",
+      "id": "ID",
+      "id": "entities.opinion.id",
+      "username": "entities.opinion.username",
+      "pageid": "entities.opinion.pageid",
+      "contentid": "entities.opinion.contentid",
+      "langcode": "entities.opinion.langcode",
+      "created": "entities.opinion.created",
+      "text": "entities.opinion.text",
+      "sentences": "entities.opinion.sentences",
+      "score": "entities.opinion.score",
+      "result": "entities.opinion.result"
+    }
+  }
+}
