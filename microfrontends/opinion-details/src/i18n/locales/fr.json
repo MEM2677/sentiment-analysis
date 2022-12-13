@@ -1,0 +1,25 @@
+{
+  "common": {
+    "name": "",
+    "value": "",
+    "widgetName": "",
+    "notAuthenticated": ""
+  },
+  "entities": {
+    "opinion": {
+      "id": "",
+      "username": "",
+      "pageid": "",
+      "contentid": "",
+      "langcode": "",
+      "created": "",
+      "text": "",
+      "sentences": "",
+      "score": "",
+      "result": ""
+    }
+  },
+  "error": {
+    "dataLoading": ""
+  }
+}

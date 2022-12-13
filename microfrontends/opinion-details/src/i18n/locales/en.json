@@ -1,0 +1,26 @@
+{
+  "error": {
+    "dataLoading": "Error during server connection"
+  },
+  "common": {
+    "widgetName": "Details about '{{widgetNamePlaceholder}}'",
+    "name": "Name",
+    "value": "Value",
+    "loading": "Loading...",
+    "notAuthenticated": "User is not authenticated."
+  },
+  "entities": {
+    "opinion": {
+      "id": "entities.opinion.id",
+      "username": "entities.opinion.username",
+      "pageid": "entities.opinion.pageid",
+      "contentid": "entities.opinion.contentid",
+      "langcode": "entities.opinion.langcode",
+      "created": "entities.opinion.created",
+      "text": "entities.opinion.text",
+      "sentences": "entities.opinion.sentences",
+      "score": "entities.opinion.score",
+      "result": "entities.opinion.result"
+    }
+  }
+}

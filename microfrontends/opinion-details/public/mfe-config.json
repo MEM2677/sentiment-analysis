@@ -1,9 +1,9 @@
 {
-    "systemParams": {
-        "api": {
-            "opinion-api": {
-                "url": "http://localhost:8081"
-            }
-        }
+  "systemParams": {
+    "api": {
+      "opinion-api": {
+        "url": "http://localhost:8081"
+      }
     }
+  }
 }

@@ -1,0 +1,47 @@
+{
+  "filters": {
+    "field": "",
+    "operator": "",
+    "addFilter": "",
+    "clearFilters": "",
+    "filter": ""
+  },
+  "entities": {
+    "opinion": {
+      "id": "",
+      "username": "",
+      "pageid": "",
+      "contentid": "",
+      "langcode": "",
+      "created": "",
+      "text": "",
+      "sentences": "",
+      "score": "",
+      "result": "",
+      "noItems": "",
+      "deleteDialog": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "error": {
+    "dataLoading": ""
+  },
+  "common": {
+    "dataDeleted": "",
+    "delete": "",
+    "yes": "",
+    "no": "",
+    "notAuthenticated": "",
+    "loadingMore": ""
+  },
+  "pagination": {
+    "ariaLabels": {
+      "firstPage": "",
+      "previousPage": "",
+      "nextPage": "",
+      "lastPage": ""
+    }
+  }
+}

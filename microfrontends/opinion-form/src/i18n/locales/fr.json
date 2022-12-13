@@ -1,0 +1,34 @@
+{
+  "common": {
+    "dataSaved": "",
+    "notAuthenticated": "",
+    "dataDeleted": "",
+    "yes": "",
+    "no": "",
+    "delete": "",
+    "cancel": "",
+    "save": ""
+  },
+  "error": {
+    "dataLoading": ""
+  },
+  "entities": {
+    "opinion": {
+      "notFound": "",
+      "deleted": "",
+      "username": "",
+      "pageid": "",
+      "contentid": "",
+      "langcode": "",
+      "created": "",
+      "text": "",
+      "sentences": "",
+      "score": "",
+      "result": "",
+      "deleteDialog": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
+}

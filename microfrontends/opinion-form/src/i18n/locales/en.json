@@ -1,0 +1,41 @@
+{
+  "error": {
+    "dataLoading": "Error during server connection"
+  },
+  "common": {
+    "save": "Save",
+    "dataSaved": "Opinion successfully saved",
+    "dataDeleted": "Opinion successfully deleted",
+    "notAuthenticated": "User is not authenticated.",
+    "selectFile": "Upload new file",
+    "selectImageFile": "Upload new image",
+    "download": "Download",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} is required"
+  },
+  "entities": {
+    "opinion": {
+      "deleteDialog": {
+        "title": "Delete opinion",
+        "description": "Are you sure?"
+      },
+      "notFound": "Opinion not found",
+      "deleted": "Opinion deleted",
+      "id": "entities.opinion.id",
+      "username": "entities.opinion.username",
+      "pageid": "entities.opinion.pageid",
+      "contentid": "entities.opinion.contentid",
+      "langcode": "entities.opinion.langcode",
+      "created": "entities.opinion.created",
+      "text": "entities.opinion.text",
+      "sentences": "entities.opinion.sentences",
+      "score": "entities.opinion.score",
+      "result": "entities.opinion.result"
+    }
+  }
+}

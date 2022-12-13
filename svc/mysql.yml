@@ -1,5 +1,5 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-version: '3.7'
+version: "3.7"
 
 services:
   mysql:
@@ -9,12 +9,12 @@ services:
     # volumes:
     #   - ~/volumes/entando-bundle-cli/sentiment-analysis-bundle/mysql/:/var/lib/mysql/
     environment:
-      - MYSQL_ROOT_PASSWORD=sentiment-analysis-bundle-password
-      - MYSQL_USER=sentiment-analysis-bundle-user
-      - MYSQL_PASSWORD=sentiment-analysis-bundle-password
-      - MYSQL_DATABASE=sentiment-analysis-bundle
+      - MYSQL_ROOT_PASSWORD=sa-password
+      - MYSQL_USER=sa-user
+      - MYSQL_PASSWORD=sa-password
+      - MYSQL_DATABASE=opinion
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
     ports:
       - 127.0.0.1:3306:3306
-    command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8mb4 --explicit_defaults_for_timestamp
+    command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8mb4 --explicit_defaults_for_timestamp --authentication-policy=mysql_native_password
