@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "7.0.1"
+      }
+    ],
+    "applicationType": "microservice",
+    "baseName": "opinion",
+    "jhipsterVersion": "7.2.0",
+    "skipClient": true,
+    "withAdminUi": false,
+    "skipUserManagement": true,
+    "skipServer": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1670943667541,
+    "serviceDiscoveryType": false,
+    "reactive": false,
+    "authenticationType": "oauth2",
+    "packageName": "com.entando.bundle",
+    "serverPort": "8081",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "buildTool": "maven",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "microserviceDependencies": "entando",
+    "generateMicroFrontends": "always",
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "monorepository": true,
+    "skipCommitHook": true,
+    "jwtSecretKey": "NWNmYTg5YmZmNWJhNjlmN2JlZDAxNTVkNmMwZDc5YTkyMDdjYTQ2NTk2ZTQyYTUyNmI5OTA3MjhmMGVlOWE5MDgyNjQ4MDNlYzhkMWY5MWI2ZjY5NDIzZGIyN2E4YWNjZGE3YThiN2MyZDdmMzY5ZTQ5NGVjMzExOWZlOWVhNTE=",
+    "enableGradleEnterprise": false,
+    "languages": ["en", "fr"]
+  }
+}
