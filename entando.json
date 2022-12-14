@@ -67,6 +67,18 @@
           "serviceName": "opinion-ms"
         }
       ]
+    },
+    {
+      "name": "review-form",
+      "customElement": "review-form",
+      "stack": "react",
+      "type": "widget",
+      "group": "free",
+      "publicFolder": "public",
+      "titles": {
+        "en": "review-form",
+        "it": "review-form"
+      }
     }
   ],
   "svc": ["mysql", "keycloak"],
