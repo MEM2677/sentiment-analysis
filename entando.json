@@ -1,89 +1,84 @@
 {
-  "microservices": [
-    {
-      "name": "opinion-ms",
-      "stack": "spring-boot",
-      "healthCheckPath": "/management/health",
-      "dbms": "mysql",
-      "ingressPath": "/sa",
-      "deploymentBaseName": "sa-bundle",
-      "roles": ["sa-admin", "sa-view", "sa-form"]
-    }
-  ],
-  "microfrontends": [
-    {
-      "name": "opinion-table",
-      "customElement": "opinion-table",
-      "stack": "react",
-      "type": "widget",
-      "group": "free",
-      "publicFolder": "public",
-      "titles": {
-        "en": "opinion-table",
-        "it": "opinion-table"
-      },
-      "apiClaims": [
+    "microservices": [
         {
-          "name": "opinion-api",
-          "type": "internal",
-          "serviceName": "opinion-ms"
+            "name": "opinion-ms",
+            "stack": "spring-boot",
+            "healthCheckPath": "/management/health",
+            "dbms": "mysql",
+            "ingressPath": "/sa",
+            "deploymentBaseName": "sa-bundle",
+            "roles": [
+                "sa-admin",
+                "sa-view",
+                "sa-form"
+            ]
         }
-      ]
-    },
-    {
-      "name": "opinion-details",
-      "customElement": "opinion-details",
-      "stack": "react",
-      "type": "widget",
-      "group": "free",
-      "publicFolder": "public",
-      "titles": {
-        "en": "opinion-details",
-        "it": "opinion-details"
-      },
-      "apiClaims": [
+    ],
+    "microfrontends": [
         {
-          "name": "opinion-api",
-          "type": "internal",
-          "serviceName": "opinion-ms"
-        }
-      ]
-    },
-    {
-      "name": "opinion-form",
-      "customElement": "opinion-form",
-      "stack": "react",
-      "type": "widget",
-      "group": "free",
-      "publicFolder": "public",
-      "titles": {
-        "en": "opinion-form",
-        "it": "opinion-form"
-      },
-      "apiClaims": [
+            "name": "opinion-table",
+            "customElement": "opinion-table",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "opinion-table",
+                "it": "opinion-table"
+            },
+            "apiClaims": [
+                {
+                    "name": "opinion-api",
+                    "type": "internal",
+                    "serviceName": "opinion-ms"
+                }
+            ]
+        },
         {
-          "name": "opinion-api",
-          "type": "internal",
-          "serviceName": "opinion-ms"
+            "name": "opinion-details",
+            "customElement": "opinion-details",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "opinion-details",
+                "it": "opinion-details"
+            },
+            "apiClaims": [
+                {
+                    "name": "opinion-api",
+                    "type": "internal",
+                    "serviceName": "opinion-ms"
+                }
+            ]
+        },
+        {
+            "name": "review-form",
+            "customElement": "review-form",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "review-form",
+                "it": "review-form"
+            },
+            "apiClaims": [
+                {
+                    "name": "opinion-api",
+                    "type": "internal",
+                    "serviceName": "opinion-ms"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "review-form",
-      "customElement": "review-form",
-      "stack": "react",
-      "type": "widget",
-      "group": "free",
-      "publicFolder": "public",
-      "titles": {
-        "en": "review-form",
-        "it": "review-form"
-      }
-    }
-  ],
-  "svc": ["mysql", "keycloak"],
-  "name": "sentiment-analysis-bundle",
-  "version": "0.0.1",
-  "description": "sentiment-analysis-bundle description",
-  "type": "bundle"
+    ],
+    "svc": [
+        "mysql",
+        "keycloak"
+    ],
+    "name": "sentiment-analysis-bundle",
+    "version": "0.0.5",
+    "description": "sentiment-analysis-bundle description",
+    "type": "bundle"
 }
