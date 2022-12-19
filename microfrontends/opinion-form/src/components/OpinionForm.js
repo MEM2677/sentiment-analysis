@@ -77,7 +77,7 @@ class OpinionForm extends PureComponent {
         <form onSubmit={handleSubmit} className={classes.root} data-testid="opinion-form">
           <Grid container spacing={2}>
             <input type="hidden" id="opinion-id" data-testid="opinion-id" value={values.id} />
-            <Grid item xs={12} sm={6}>
+            {/* <Grid item xs={12} sm={6}>
               <TextField
                 id="opinion-username"
                 error={errors.username && touched.username}
@@ -141,7 +141,7 @@ class OpinionForm extends PureComponent {
                 name="created"
                 label={t('entities.opinion.created')}
               />
-            </Grid>
+            </Grid> */}
             <Grid item xs={12} sm={6}>
               <TextField
                 id="opinion-text"
@@ -155,7 +155,7 @@ class OpinionForm extends PureComponent {
                 label={t('entities.opinion.text')}
               />
             </Grid>
-            <Grid item xs={12} sm={6}>
+            {/* <Grid item xs={12} sm={6}>
               <TextField
                 id="opinion-sentences"
                 error={errors.sentences && touched.sentences}
@@ -194,7 +194,7 @@ class OpinionForm extends PureComponent {
                 name="result"
                 onChange={handleChange}
               >
-                {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
+                
                 <option value="" />
                 <option value="VERY_NEGATIVE">VERY_NEGATIVE</option>
                 <option value="NEGATIVE">NEGATIVE</option>
@@ -203,7 +203,7 @@ class OpinionForm extends PureComponent {
                 <option value="VERY_POSITIVE">VERY_POSITIVE</option>
                 <option value="UNDETERMINED">UNDETERMINED</option>
               </Select>
-            </Grid>
+            </Grid> */}
             {onDelete && (
               <ConfirmationDialogTrigger
                 onCloseDialog={this.handleConfirmationDialogAction}

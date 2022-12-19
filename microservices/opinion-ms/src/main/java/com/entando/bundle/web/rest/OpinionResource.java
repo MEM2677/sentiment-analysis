@@ -72,20 +72,20 @@ public class OpinionResource {
      * @return the {@link ResponseEntity} with status {@code 201 (Created)} and with body the new opinionDTO, or with status {@code 400 (Bad Request)} if the opinion has already an ID.
      * @throws URISyntaxException if the Location URI syntax is incorrect.
      */
-/*
-    @PostMapping("/opinions")
-    public ResponseEntity<OpinionDTO> createOpinion(@RequestBody OpinionDTO opinionDTO) throws URISyntaxException {
-        log.debug("REST request to save Opinion : {}", opinionDTO);
-        if (opinionDTO.getId() != null) {
-            throw new BadRequestAlertException("A new opinion cannot already have an ID", ENTITY_NAME, "idexists");
-        }
-        OpinionDTO result = opinionService.save(opinionDTO);
-        return ResponseEntity
-            .created(new URI("/api/opinions/" + result.getId()))
-            .headers(HeaderUtil.createEntityCreationAlert(applicationName, true, ENTITY_NAME, result.getId().toString()))
-            .body(result);
-    }
-*/
+
+//    @PostMapping("/opinions")
+//    public ResponseEntity<OpinionDTO> createOpinion(@RequestBody OpinionDTO opinionDTO) throws URISyntaxException {
+//        log.debug("REST request to save Opinion : {}", opinionDTO);
+//        if (opinionDTO.getId() != null) {
+//            throw new BadRequestAlertException("A new opinion cannot already have an ID", ENTITY_NAME, "idexists");
+//        }
+//        OpinionDTO result = opinionService.save(opinionDTO);
+//        return ResponseEntity
+//            .created(new URI("/api/opinions/" + result.getId()))
+//            .headers(HeaderUtil.createEntityCreationAlert(applicationName, true, ENTITY_NAME, result.getId().toString()))
+//            .body(result);
+//    }
+
     /**
      * {@code POST  /opinions} : Create a new opinion.
      *
